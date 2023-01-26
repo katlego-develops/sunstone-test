@@ -1,0 +1,23 @@
+//   Colors
+@import "./abstracts/colors";
+
+//   Mixins
+@import "./abstracts/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", sans-serif, serif;
+  // overflow: hidden;
+
+  //   Import Components
+  @import "./components/header";
+  @import "./components/footer";
+
+  //   Import Pages
+  @import "./pages/team";
+}

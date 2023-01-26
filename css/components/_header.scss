@@ -1,0 +1,17 @@
+header {
+  width: 100%;
+  height: 28vh;
+  @media screen and (max-width: 540px) {
+    height: 300px;
+  }
+  @media screen and (max-width: 390px) {
+    height: 15vh;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+}
